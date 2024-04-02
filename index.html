@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <style type="text/css">
+
+        /* Formatação padrão*/
+        body, html {
+            margin: 0;
+            font: 16px "Lato", sans-serif;
+            color: #777;
+            height: 100%;
+        }
+
+        .conteudo {
+            color: #777;
+            background-color: white;
+            text-align:justify;
+            padding: 50px 80px;
+        }
+
+        p {
+            margin: 20px;
+        }
+
+        h3 {
+            text-transform: uppercase;
+            text-align: center;
+        }
+        /* Formatação do Parallax*/
+        .caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6 {
+            position: relative;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position: center;
+            background-attachment: fixed;
+
+        }
+
+        .caixa1 {
+            background-image:url(imagens/imagem1.jpg) ;
+
+        }
+
+        .caixa2 {
+            background-image: url(imagens/imagem2.jpg);
+            
+        }
+
+        .caixa3 {
+            background-image:url(imagens/imagem3.jpg) ;
+
+        }
+
+        .caixa4 {
+            background-image: url(imagens/imagem4.jpg);
+            
+        }
+
+        .caixa5 {
+            background-image:url(imagens/imagem5.jpg) ;
+
+        }
+
+        .caixa6 {
+            background-image: url(imagens/imagem6.jpg);
+            
+        }
+        /*formatação de texto*/
+
+        .conteudo-titulo {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            text-align: center;
+            
+        }
+
+        .conteudo-titulo span.titulo {
+            color: aliceblue;
+            background-color: #1111114d;
+            padding: 18px;
+            font-size: 25px;
+            letter-spacing: 5px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="caixa1">
+       <div class="conteudo-titulo">
+        <span class="titulo">Passeio de Balão</span>
+       </div> 
+    </div>
+
+    <div class="conteudo">
+        <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+        Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+        Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+        Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+        Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+        lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+        Duis finibus pellentesque ante, a tempor est bibendum nec.
+        Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+            Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+            Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+            Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+            Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+            lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+            Duis finibus pellentesque ante, a tempor est bibendum nec.
+            Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+    </div>
+
+    <div class="caixa2">
+        <div class="conteudo-titulo">
+            <span class="titulo">Caindo na Estrada</span>
+           </div>
+    </div>
+    <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+        Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+        Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+        Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+        Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+        lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+        Duis finibus pellentesque ante, a tempor est bibendum nec.
+        Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+            Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+            Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+            Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+            Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+            lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+            Duis finibus pellentesque ante, a tempor est bibendum nec.
+            Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+    <div class="caixa3">
+        <div class="conteudo-titulo">
+            <span class="titulo">Bem Estar</span>
+           </div>
+    </div>
+    <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+        Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+        Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+        Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+        Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+        lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+        Duis finibus pellentesque ante, a tempor est bibendum nec.
+        Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+            Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+            Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+            Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+            Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+            lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+            Duis finibus pellentesque ante, a tempor est bibendum nec.
+            Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+    <div class="caixa4">
+        <div class="conteudo-titulo">
+            <span class="titulo">Montanhas Exuberante</span>
+           </div>
+    </div>
+    <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+        Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+        Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+        Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+        Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+        lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+        Duis finibus pellentesque ante, a tempor est bibendum nec.
+        Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+            Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+            Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+            Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+            Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+            lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+            Duis finibus pellentesque ante, a tempor est bibendum nec.
+            Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+    <div class="caixa5">
+        <div class="conteudo-titulo">
+            <span class="titulo">Mar Calmo</span>
+           </div>
+    </div>
+    <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+        Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+        Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+        Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+        Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+        lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+        Duis finibus pellentesque ante, a tempor est bibendum nec.
+        Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+            Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+            Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+            Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+            Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+            lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+            Duis finibus pellentesque ante, a tempor est bibendum nec.
+            Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+    <div class="caixa6">
+        <div class="conteudo-titulo">
+            <span class="titulo">Praia Maravilhosa</span>
+           </div>
+    </div>
+    <h3>Parallax</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+        Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+        Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+        Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+        Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+        lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+        Duis finibus pellentesque ante, a tempor est bibendum nec.
+        Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eleifend tincidunt rutrum.
+            Duis ornare et nulla et rhoncus. In lacinia justo sed dui egestas, quis egestas enim pretium. 
+            Vestibulum viverra eros ut velit condimentum cursus. Donec sagittis justo ac varius semper.
+            Suspendisse finibus neque a arcu congue, iaculis tincidunt libero sagittis. 
+            Fusce semper consectetur ligula, vitae rutrum magna consequat in. C
+            lass aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris quis rhoncus arcu. 
+            Duis finibus pellentesque ante, a tempor est bibendum nec.
+            Donec lacus nisi, faucibus vitae neque blandit, convallis vestibulum arcu. Quisque at cursus orci.</p>
+</body>
+</html>
